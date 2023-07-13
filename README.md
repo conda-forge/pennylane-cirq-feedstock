@@ -1,11 +1,11 @@
-About pennylane-cirq
-====================
+About pennylane-cirq-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pennylane-cirq-feedstock/blob/main/LICENSE.txt)
 
 Home: http://xanadu.ai
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pennylane-cirq-feedstock/blob/main/LICENSE.txt)
 
 Summary: PennyLane plugin for Cirq
 
