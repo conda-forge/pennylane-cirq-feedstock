@@ -1,5 +1,5 @@
 {% set name = "pennylane-cirq" %}
-{% set version = "0.32.0" %}
+{% set version = "0.43.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/PennyLaneAI/pennylane-cirq/archive/v{{ version }}.tar.gz
-  sha256: e6e9cfa557c3bb389e0e2dce0e3c5fb22313aacf345ab6220b4f6dba57e5b85a
+  sha256: 349fe4695ee0531e4ebf44e4ccb2df722679e3b63b45bacc89285223a3f568d6
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -21,7 +21,7 @@ requirements:
   run:
     - cirq-core >=0.10
     - cirq-pasqal >=0.10
-    - pennylane >=0.17
+    - pennylane >=0.43.0
     - python >={{ python_min }}
 
 test:
